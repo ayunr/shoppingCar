@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+			#widshow{
+				width: 658px;
+				height: 300px;
+				margin: 60px auto;
+				position: relative;
+				overflow: hidden;
+			}
+			.imgin{
+				width: 3000px;
+				height: 300px;
+				position: absolute;
+				left: 0;
+			}
+			ul li{
+				float: left;
+				list-style: none;
+			}
+			input{
+				border-style: none;
+				outline: none;
+				height: 40%;
+				width: 20px;
+				background-color: #000000;
+				opacity: 0.5;
+				cursor: pointer;
+				color: #FFFFFF;
+				font-size: 16px;
+			}
+			#leftbtn{
+				position: absolute;
+				left: 0;
+				top: 100px;
+			}
+			#rightbtn{
+				position: absolute;
+				right: 0;
+				top: 100px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="widshow">
+			<div class="imgin">
+				<ul>
+					<li><img src="p1.jpg"/></li>
+					<li><img src="p2.jpg"/></li>
+					<li><img src="p3.jpg"/></li>
+					<li><img src="p4.jpg"/></li>
+				</ul>
+			</div>
+			<input type="button" name="leftbtn" id="leftbtn" value="下" />
+			<input type="button" name="rightbtn" id="rightbtn" value="上" />
+		</div>
+		<script src='../js/jquery-1.11.0.js'></script>
+		<script>
+			$(function(){
+				var i=0;
+				$('#leftbtn').click(function(){
+					++i;
+					var next=-658*i;
+					$('.imgin').animate(
+						{'left':next},300
+					);
+					if(i==3){
+						i=-1;
+					}
+				});
+				$('#rightbtn').click(function(){
+					--i;
+//					先对i大小 进行判断 看看是否为最左边的那个图片,是的话,替换i 
+					if(i<0){
+						i=3;
+					}
+					var next=-658*i;
+					$('.imgin').animate(
+						{'left':next},300
+					);
+				});
+			});
+		</script>
+	</body>
+</html>

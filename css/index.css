@@ -1,0 +1,1051 @@
+/*顶部信息开始*/
+#header{
+	height: 84px;
+}
+/*左边的logo*/
+#header .logo{
+	width: 200px;
+	height: 112px;
+	float: left;
+	position: absolute;
+	top: 0;
+}
+/*右边的搜索框,购物车,订单*/
+#header .search{
+	width: 682px;
+	height: 46px;
+	margin-top: 4px;
+	float: right;
+}
+/*搜索框开始*/
+#header .search_btn{
+	float: left;
+	width: 438px;
+	height: 36px;
+	border: 2px solid #ff6600;
+}
+#header .search_btn input{
+	height: 32px;
+	width: 380px;
+	margin-left: 6px;
+	outline: none;
+	border-style: none;
+	font-size: 16PX;
+	color: #bfbfbf;
+}
+#header .search_btn span a{
+	display: block;
+	width: 48px;
+	height: 36px;
+	text-align: center;
+	line-height: 32px;
+	background-color: #ff6600;
+	float: right;
+}/*搜索框结束*/
+
+/*购物车和订单*/
+#header .shop_msg{
+	width: 200px;
+	height: 36px;
+	float: right;
+}
+#header .shop_msg a{
+	display: block;
+	width: 94px;
+	height: 32px;
+	line-height: 32px;
+	float: left;
+	text-align: center;
+	position: relative;
+}
+#header .shop_msg .shop_car{
+	border: 2px solid #ff6600;
+	background-color: #ff6600;
+	font-size: 14px;
+	color: #FFFFFF;
+}
+#header .shop_msg .shop_list{
+	border: 2px solid #f1f1f1;
+	background-color: #ebebeb;
+	font-size: 16px;
+	color: #808080;
+}
+#header .shop_msg .number{
+	position: absolute;
+	right: 6px;
+}
+#header .shop_msg .car_text{
+	position: absolute;
+	right: 20px;
+}
+#header .shop_msg .car_icon{
+	position: absolute;
+	left: 2px;
+	top: 5px;
+}
+#header ul.title{
+	height: 22px;
+	line-height: 44px;
+	float: right;
+	margin-right: 104px;
+}
+#header ul.title a{
+	font-size: 16px;
+	color: #323232;
+	font-family: '黑体';
+}
+#header li{
+	float: left;
+	margin-left: 32px;
+}
+/*顶部信息结束*/
+/*part1 第一部分内容开始*/
+#part1{
+	height: 428px;
+	border-left: none;
+	position: relative;
+}
+/*左边分类导航,ul的内容布局*/
+#part1 .nav{
+	width: 200px;
+	background-color: #f3f3f3;
+	font-size: 14px;
+	color: #1a1a1a;
+	float: left;
+}
+#part1 .nav li{
+	padding-left: 20px;
+	height: 31px;
+	line-height: 30px;
+}
+#part1 .nav li p{
+	display: block;
+	width: 179px;
+	position: absolute;
+	z-index: 2;
+	border-right:1px solid #FFFFFF;
+}
+/*二级菜单的显示内容*/
+#part1 .nav_son{
+	display: none;
+	width: 548px;
+	height: 490px;
+	position: absolute;
+	z-index: 1;
+	left: 162px;
+	top: 0;
+	padding-left: 38px;
+	border: 1px solid #ff6600;
+	background-color: #ffffff;
+	margin-left: 38px;
+	margin-right: 70px;
+	font-size: 12px;
+	color: #262626;
+}
+#part1 .nav_son dt,dd{
+	height: 26px;
+	line-height: 26px;
+}
+#part1 .nav_son dt{
+	font-size: 14px;
+	color: #ff6600;
+	border: 1px solid #fafafa; 
+}
+#part1 .nav_son .first_dt{
+	height: 34px;
+	line-height: 34px;
+	color: #262626;
+}
+#part1 .nav_son span{
+	margin-right: 10px;
+}
+#part1 .nav_son .first_dt span{
+	margin-right: 37px;
+}
+#part1 .banner_slide{
+	width:1000px;
+	height: 428px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	overflow: hidden;
+}
+/*js控制,分类标签交互展示*/
+.show_border{
+	border: 1px solid #ff6600;
+	border-right: none;
+	color: #ff6600;
+}
+.show_border .banner_img{
+	display: block;
+	float: left;
+	position: relative;
+}
+.before{
+	position: absolute;
+	top: 170px;
+	left: 200px;
+}
+.next{
+	position: absolute;
+	top: 170px;
+	right: 0;
+}
+
+#part1 .nav .show{
+	display: block;
+}
+/*part1 第一部分内容结束*/
+
+/*part1 第二部分内容开始*/
+#part2{
+	height: 550px;
+	margin-top: 20px;
+}
+#part2 p.title{
+	height: 46px;
+	line-height: 50px;
+	font-size: 24px;
+	color: #ff6600;
+	border-bottom: 6px solid #ff6600;
+	padding-left: 8px;
+}
+#part2 ul{
+	height: 496px;
+	/*background-color: rosybrown;*/
+	margin-left: 2px;
+}
+#part2 ul>li{
+	width: 197px;
+	height: 246px;
+	border-left: 2px solid #FF6600;
+	border-bottom: 2px solid #FF6600;
+	float: left;
+	text-align: center;
+	position: relative;
+}
+#part2 ul li.last_li{
+	border-right: 2px solid #FF6600;
+} 
+#part2 ul li a{
+	display: block;
+	margin-top:5px ;
+}
+#part2 ul li .icon_qg{
+	position: absolute;
+	left: 0;
+	top: 156px;
+}
+#part2 ul li .title_goods{
+	font-size: 14PX;
+	color: #333333;
+	position: absolute;
+	top: 180px;
+	left: 8px;
+}
+#part2 ul li .baoxiu{
+	font-size: 14PX;
+	color: #f4290d;
+	position: absolute;
+	top: 201px;
+	left: 8px;
+}
+#part2 ul li .price{
+	font-size: 24PX;
+	color: #f4290d;
+	position: absolute;
+	top: 221px;
+	left: 8px;
+}
+/*part1 第二部分内容结束*/
+
+/*part1 第三部分内容开始*/
+#part3{
+	height: 492px;
+	margin-top: 30px;
+	position: relative;
+}
+#part3 .left_book{
+	width: 904px;
+	position: relative;
+}
+#part3 .left_book .title{
+	font-size: 28px;
+	color: #333333;
+	height: 46px;
+	line-height: 50px;
+	border-bottom: 5px solid #FF6600;
+}
+#part3 .left_book ul.list_title{
+	position: absolute;
+	right: 0;
+	top: 12px;
+}
+#part3 .left_book ul.list_title li{
+	width: 98px;
+	height: 34px;
+	line-height: 39px;
+	text-align: center;
+	font-size: 18px;
+	float: left;
+}
+#part3 .left_book  .left_list ul.book_group{
+	height:151px ;
+	width: 238px;
+	background-color: #f9f9f9;
+}
+#part3 .left_book ul.book_group>li{
+	width: 72px;
+	height: 34px;
+	line-height: 54px;
+	float: left;
+	margin-left: 4px;
+}
+#part3 .left_book ul.book_group>li>a{
+	font-size: 14px;
+	color: #333333;	
+}
+#part3 .left_book .right_list{
+	display: none;
+	width: 666px;
+	height: 436px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+#part3 .left_book .right_list>li{
+	width: 164px;
+	height: 216px;
+	border-left: 2px solid #f3f3f3;
+	border-bottom: 2px solid #f3f3f3;
+	float: left;
+	position: relative;
+}
+#part3 .left_book .right_list li.last_li{
+	border-right: 2px solid #f3f3f3;
+}
+#part3 .left_book .right_list li.first_li_slider{
+	width: 330px;
+	overflow: hidden;
+}
+#part3 .left_book .right_list .book_active{
+	position: absolute;
+	font-size: 16px;
+	color: #454545;
+	top: 16px;
+}
+#part3 .left_book .right_list .book_lowprice{
+	font-size: 13px;
+	font-weight: bold;
+	position: absolute;
+	top: 38px;
+}
+#part3 .left_book .right_list li.both img{
+	width: 140px;
+	height: 120px;
+	position: absolute;
+	top: 60px;
+	left: 10px;
+}
+#part3 .left_book .right_list li>p{
+	position: absolute;
+	font-size: 18px;
+	color: #f91616;
+	left: 6px;
+	bottom: 8px;
+}
+#part3 .left_book  li.first_li_slider img{
+	/*overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;*/
+}
+#part3 .left_book  li.first_li_slider>div{
+	/*待完善*/
+}
+#part3 .left_book .right_list li>p>del{
+	margin-left: 12px;
+	color: #b2b2b2;
+}
+
+	/*js用于右上列表的交互样式 效果*/
+.show_bgcolor{
+	color: #FFFFFF;
+	background-color: #FF6600;/*滑动时选中效果的背景色*/
+}
+#part3 .left_book .show{
+	display: block;
+}
+
+#part3 .right_book{
+	height: 440px;
+	width: 284px;
+	border: 2px solid #f3f3f3;
+	position: absolute;
+	bottom: 6px;
+	right: 0;
+}
+#part3 .right_book p.newbook_onsale{
+	height: 38px;
+	line-height: 38px;
+	font-size: 24px;
+	color: #808080;
+	text-align: center;
+}
+
+#part3 .right_book ul>li{
+	height: 38px;
+	line-height: 34px;
+	border-bottom:2px solid #f3f3f3;
+	margin-left: 8px;
+	position: relative;
+	color: #4c4c4c;
+	font-size: 16px;
+}
+#part3 .right_book a{
+	color:#808080 ;
+	margin-left: 18px;
+}
+#part3 .right_book .first{
+	display: none;
+	height: 150px;
+	margin-top: 16px;
+}
+#part3 .right_book .number_red{
+	width: 16px;
+	height: 150px;
+	color: #ff2315;
+	position: absolute;
+	z-index:111 ;
+	border-bottom:2px solid #FFFFFF;
+}
+#part3 .right_book .number_black{
+	width: 16px;
+	height: 50px;
+	color: #4c4c4c;
+	position: absolute;
+	z-index:111 ;
+	border-bottom:2px solid #FFFFFF;
+}
+#part3 .right_book .first img.new_bk{
+	position: absolute;
+	left: 6px;
+}
+#part3 .right_book span.content{
+	width: 127px;
+	height:150px ;
+	line-height: 20px;
+	font-size: 14px;
+	color: #404040;
+	position: absolute;
+	right: 4px;
+}
+#part3 .right_book ul>li.last{
+	border-bottom: none;
+}
+/*js效果让 默认不展示的内容 变成内容展示*/
+#part3 .right_book ul>li.show{
+	display: block;
+}
+/*使展示的内容隐藏*/
+#part3 .right_book ul>li.hide{
+	display: none;
+}
+
+/*part4的 全部内容 户外运动 开始*/
+#part4{
+	height:551px;
+	margin-top: 30px;
+	position: relative;
+	overflow: hidden;
+}
+#part4 p.title{
+	font-size: 28px;
+	color: #333333;
+	height: 46px;
+	line-height: 50px;
+	border-bottom: 5px solid #FF6600;
+}
+#part4 ul.list_title{
+	position: absolute;
+	right: 0;
+	top: 12px;
+}
+#part4 ul.list_title li{
+	width: 98px;
+	height: 34px;
+	line-height: 39px;
+	text-align: center;
+	font-size: 18px;
+	float: left;
+}
+#part4 >div{
+	display: none;
+}
+#part4 >div.show_content{
+	display: block;
+}
+#part4 .left_list{
+	position: absolute;
+	left: 2px;
+}
+#part4 .left_list>ul.book_group{
+	height:151px;
+	width: 238px;
+	background-color: #f9f9f9;
+}
+#part4 ul.book_group>li{
+	width: 70px;
+	height:36px;
+	line-height: 40px;
+	float: left;
+	margin-left: 4px;
+}
+#part4 ul.book_group>li>a{
+	font-size: 14px;
+	color: #333333;	
+}
+#part4 .right_list{
+	width: 960px;
+	height: 436px;
+	position: absolute;
+	top:51px;
+	right: 0;
+}
+#part4 .right_list>li{
+	width: 174px;
+	height: 336px;
+	border-left: 2px solid #f3f3f3;
+	border-bottom: 2px solid #f3f3f3;
+	float: left;
+	position: relative;
+}
+#part4 .right_list>li>a>img{
+	width:172px;
+	height:331px;
+	position: absolute;
+	left: 2px;
+	top: 0;
+}
+#part4 .right_list>li.first_li_slider>a>img{
+    width: 424px;
+}
+#part4 .right_list li.last_li{
+	border-right: 2px solid #f3f3f3;
+}
+#part4 .right_list li.first_li_slider{
+	width: 424px;
+	margin-left: 1px;
+	overflow: hidden;
+}
+#part4 .right_list li.first_li_slider img{
+}
+#part4 .right_list>li.low{
+	height: 160px;
+}
+#part4 .right_list>li.low>a>img{
+	height: 160px;
+}
+#part4 .right_list>li>i.seven{
+	background-image: url(../imgs/close22.jpg);
+	background-repeat: no-repeat;
+}
+#part4 .right_list>li>i.eight{
+	background-image: url(../imgs/close33.jpg);
+	background-repeat: no-repeat;
+}
+#part4 .right_list .book_active{
+	position: absolute;
+	font-size: 16px;
+	color: #454545;
+	top: 16px;
+}
+#part4 .right_list .book_lowprice{
+	font-size: 13px;
+	font-weight: bold;
+	position: absolute;
+	top: 38px;
+}
+#part4 .right_list li img{
+}
+#part4 .right_list li>p{
+	position: absolute;
+	font-size: 18px;
+	color: #f91616;
+	left: 6px;
+	bottom: 8px;
+}
+#part4 .right_list li>p>del{
+	margin-left: 12px;
+	color: #b2b2b2;
+}
+/*part4的全部内容 内容 户外运动 结束*/
+/*part4下面的 品牌logo 开始*/
+#partner_logo{
+	margin-top: 20px;
+}
+#partner_logo a{
+	margin-right: 20px;
+}
+
+/*part4下面的 品牌logo 结束*/
+
+
+
+
+
+
+
+/*part4_1的全部内容 内容 户外运动 开始*/
+#part4_1{
+	height:551px;
+	margin-top: 30px;
+	position: relative;
+	overflow: hidden;
+}
+#part4_1 p.title{
+	font-size: 28px;
+	color: #333333;
+	height: 46px;
+	line-height: 50px;
+	border-bottom: 5px solid #FF6600;
+}
+#part4_1 ul.list_title{
+	position: absolute;
+	right: 0;
+	top: 12px;
+}
+#part4_1 ul.list_title li{
+	width: 98px;
+	height: 34px;
+	line-height: 39px;
+	text-align: center;
+	font-size: 18px;
+	float: left;
+}
+#part4_1 >div{
+	display: none;
+}
+#part4_1 >div.show_content{
+	display: block;
+}
+#part4_1 .left_list{
+	position: absolute;
+	left: 2px;
+}
+#part4_1 .left_list>ul.book_group{
+	height:151px;
+	width: 238px;
+	background-color: #f9f9f9;
+}
+#part4_1 ul.book_group>li{
+	width: 70px;
+	height:36px;
+	line-height: 40px;
+	float: left;
+	margin-left: 4px;
+}
+#part4_1 ul.book_group>li>a{
+	font-size: 14px;
+	color: #333333;	
+}
+#part4_1 .right_list{
+	width: 960px;
+	height: 436px;
+	position: absolute;
+	top:51px;
+	right: 0;
+}
+#part4_1 .right_list>li{
+	width: 174px;
+	height: 336px;
+	border-left: 2px solid #f3f3f3;
+	border-bottom: 2px solid #f3f3f3;
+	float: left;
+	position: relative;
+}
+#part4_1 .right_list>li>a>img{
+	width:172px;
+	height:331px;
+	position: absolute;
+	left: 2px;
+	top: 0;
+}
+#part4_1 .right_list>li.first_li_slider>a>img{
+    width: 424px;
+}
+#part4_1 .right_list li.last_li{
+	border-right: 2px solid #f3f3f3;
+}
+#part4_1 .right_list li.first_li_slider{
+	width: 424px;
+	margin-left: 1px;
+	overflow: hidden;
+}
+#part4_1 .right_list li.first_li_slider img{
+}
+#part4_1 .right_list>li.low{
+	height: 160px;
+}
+#part4_1 .right_list>li.low>a>img{
+	height: 160px;
+}
+#part4_1 .right_list>li>i.seven{
+	background-image: url(../imgs/close22.jpg);
+	background-repeat: no-repeat;
+}
+#part4_1 .right_list>li>i.eight{
+	background-image: url(../imgs/close33.jpg);
+	background-repeat: no-repeat;
+}
+#part4_1 .right_list .book_active{
+	position: absolute;
+	font-size: 16px;
+	color: #454545;
+	top: 16px;
+}
+#part4_1 .right_list .book_lowprice{
+	font-size: 13px;
+	font-weight: bold;
+	position: absolute;
+	top: 38px;
+}
+#part4_1 .right_list li img{
+}
+#part4_1 .right_list li>p{
+	position: absolute;
+	font-size: 18px;
+	color: #f91616;
+	left: 6px;
+	bottom: 8px;
+}
+#part4_1 .right_list li>p>del{
+	margin-left: 12px;
+	color: #b2b2b2;
+}
+/*part4_1的全部内容 内容 户外运动 开始*/
+
+
+/*part4_1下面的 品牌logo 开始*/
+#partner_logo{
+	margin-top: 20px;
+}
+#partner_logo a{
+	margin-right: 20px;
+}
+/*part4_1下面的 品牌logo 结束*/
+
+
+/*part5 家居日用 开始*/
+#part5{
+	height: 556px;
+	margin-top: 30px;
+	position: relative;
+}
+#part5>div{
+	display: none;
+}
+#part5>div.show_content{
+	display: block;
+}
+#part5>p{
+	font-size: 28px;
+	color: #333333;
+	height: 46px;
+	line-height: 50px;
+	border-bottom: 5px solid #FF6600;
+}
+#part5 ul.list_title{
+	position: absolute;
+	right: 0;
+	top: 12px;
+}
+#part5 ul.list_title li{
+	width: 98px;
+	height: 34px;
+	line-height: 39px;
+	text-align: center;
+	font-size: 18px;
+	float: left;
+}
+#part5 ul.goods_group{
+	height: 500px;
+	margin-left: 4px;
+}
+#part5 ul.goods_group>li{
+	width: 174px;
+	height: 338px;
+	border-right: 2px solid #f3f3f3;
+	border-bottom: 2px solid #f3f3f3;
+	float: left;
+}
+#part5 ul.goods_group li img{
+	width: 174px;
+	height: 240px;
+}
+#part5 ul.goods_group>li.first{
+	width: 484px;
+	height: 500px;
+	border-left:2px solid #f3f3f3;
+}
+#part5 ul.goods_group>li.first img{
+	width: 484px;
+	height: 500px;
+}
+#part5 ul.goods_group>li.low{
+	height: 160px;
+}
+#part5 ul.goods_group>li.low img{
+	height: 160px;
+}
+#part5 ul.list_title{
+	position: absolute;
+	right: 0;
+	top: 12px;
+}
+#part5 ul.list_title li{
+	width: 98px;
+	height: 34px;
+	line-height: 39px;
+	text-align: center;
+	font-size: 18px;
+	float: left;
+}
+/*part5 家居日用 结束*/
+
+/*part6 推广商品 开始*/
+#part6{
+	height: 694px;
+	position: relative;
+}
+/*下面两段个代码的含义是,只展示li＝1的内容,其余内容均隐藏*/
+#part6>div{
+	display: none;
+}
+#part6>div.show_content{
+	display: block;
+}
+#part6>p{
+	font-size: 28px;
+	color: #FF6600;
+	height: 46px;
+	line-height: 50px;
+	border-bottom: 5px solid #FF6600;
+}
+#part6 ul.list_title{
+	position: absolute;
+	right: 0;
+	top: 22px;
+}
+#part6 ul.list_title li{
+	width: 12px;
+	height: 12px;
+	border-radius: 6px;
+	float: left;
+	margin-right: 10px;
+	background-color: #bfbfbf;
+}
+#part6>div ul.goods_group{
+	position: absolute;
+	bottom: 0;
+	/*margin-left: 4px;*/
+}
+#part6>div ul>li{
+	width:156px;
+	height: 251px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 28px;
+	padding: 24px 30px;
+}
+#part6>div ul>li p{
+	margin-left: 8px;
+	margin-top: 10px;
+	font-size: 14px;
+}
+#part6>div ul>li .goods_name a{
+	height: 40px;
+	line-height: 18px;
+	color: #333333;
+}
+#part6>div ul>li p.goods_price{
+	font-size: 24px;
+	color: #f4290d;
+}
+#part6>div ul>li p span{
+	color: #747474;
+}
+#part6>div ul>li p span.first{
+	margin-left: 10px;
+}
+#part6>div ul>li p span.goods_msg{
+	color: #f4290d;
+}
+/*part6 推广商品 结束*/
+
+/*part7 横栏 板块 开始*/
+#part7{
+	width: 100%;
+	height: 92px;
+	position: relative;
+	border-top: 6px solid #ff6600;
+	background-color: #f2f2f2;
+	margin-top: 12px;
+	text-align: center;
+}
+#part7 >ul{
+	width: 990px;
+	margin: 20px auto;
+}
+#part7 ul li{
+	width:160px;
+	font-size: 18px;
+	color: #ff2832;
+	float: left;
+	margin-right: 84px;
+	overflow: hidden;
+}
+#part7 ul li img{
+	float: left;
+}
+#part7 ul li>span{
+	width: 80px;
+	height: 56px;
+	float: left;
+	margin-top: 10px;
+}
+/*part7 横栏 板块 结束*/
+
+/*part8 横栏 板块 开始*/
+#part8{
+	height: 200px;
+	position: relative;
+}
+#part8>img{
+	position: absolute;
+	right: 36px;
+	top: 66px;
+}
+#part8>ul{
+	width: 800px;
+	padding-top:28px;
+	padding-left: 100px;
+	margin: 0 auto;
+}
+#part8 ul li,#part8 ul li>a{
+	width: 160px;
+	height: 30px;
+	float: left;
+	font-size: 16px;
+	color: #666666;
+}
+#part8 ul li.blod,#part8 ul li.blod>a{
+	font-size: 18px;
+	color: #000000;
+}
+/*part8 横栏 板块 结束*/
+
+
+/*尾部网页商务信息开始*/
+#footer{
+	width: 100%;
+	height: 170px;
+	text-align: center;
+}
+#footer p>a{
+	height: 40px;
+	line-height: 50px;
+	font-size: 14px;
+	color: #333333;
+}
+/*尾部网页商务信息结束*/
+
+
+/*top 回到顶部开始*/
+#part9{
+	position: fixed;
+	right:0;
+	bottom: 50px;
+	cursor: pointer;
+	/*display: none;*/
+}
+/*top 回到顶部结束*/
+
+
+/*part10 左边锚链接开始*/
+#part10{
+	width: 40px;
+	height: 80px;
+	position: fixed;
+	left: 0;
+	top:35%;
+}
+#part10 li{
+	width: 40px;
+	height: 40px;
+	background-color: #f2f2f2;
+	text-align: center;
+	line-height: 40px;
+	cursor: pointer;
+	position: relative;
+}
+#part10 img.active{
+	display: none;
+	position: absolute;
+	left: 40px;
+}
+#part10 .show_back{
+	background-color: ;
+}
+/*part10 左边锚链接结束*/
+
+
+/*part11 右边锚链接开始*/
+#part11{
+	width: 40px;
+	position: fixed;
+	right: 0;
+	top: 20%;
+	z-index: 9999;
+}
+#part11 li{
+	cursor: pointer;
+}
+#part11 li.second{
+	height: 100px;
+	position: relative;
+}
+#part11 img.pricecode{
+	display: none;
+	position: absolute;
+	right: 40px;
+}
+
+
+
+/*part11 右边锚链接结束*/
+
+
+
+/*js用于右上列表 ul 下的三个li 标签 的交互样式 效果*/
+.show_bgcolor{
+	color: #FFFFFF;
+	background-color: #FF6600;/*滑动时选中效果的背景色*/
+}
+/*js用于显示变换三个 li标签的时候,下面对应的内容先隐藏,此处效果为显示内容*/
+#part4 .show{
+	display: block;
+}
+#part4_1 .show{
+	display: block;
+}
+.show{
+	display: block;
+}
+#part6>ul.list_title>li.show_color{
+	background-color: #FF6600;
+}
+#part6>div ul>li.show_bgcover{
+	background-color: #f2f2f2;
+	/*opacity:0.1;*/
+}

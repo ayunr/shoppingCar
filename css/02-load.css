@@ -1,0 +1,172 @@
+#login p span.left{
+	margin-left: 282px;
+}
+#load_box{
+	height: 78px;
+	position: relative;
+}
+#load_box a>img{
+	display: block;
+	position: absolute;
+	bottom: 0;
+}
+#load_box span{
+	font-size: 30px;
+	color: #666666;
+	position: absolute;
+	bottom: 30px;
+	left: 280px;
+}
+#load_bgimg{
+	width: 100%;
+	height: 500px;
+	background-color: #e93854;
+}
+#load_bgimg .innertext{
+	height: 500px;
+	background-image: url(../imgs/load_bgimg.jpg);
+	background-repeat: no-repeat;
+	position: relative;
+}
+#load_bgimg .load_msg{
+	width: 350px;
+	height: 370px;
+	background-color: #FFFFFF;
+	position: absolute;
+	right: 100px;
+	top: 65px;
+	color: #666666;
+	text-align: center;
+}
+#load_bgimg .load_msg p.first{
+	height: 54px;
+	border-bottom: 1px solid #f6f6f6;
+	text-align: center;
+	font-size: 22px;
+}
+#load_bgimg .load_msg p.first>span{
+	display: block;
+	width: 172px;
+	height: 36px;
+	line-height: 30px;
+	text-align: center;
+	color: #666666;
+	float:left;
+	margin-top: 12px;
+}
+#load_bgimg .load_msg p.first>span.first{
+	border-right: 1px solid #f6f6f6;
+}
+#load_bgimg .load_msg>div{
+	display: none;
+	margin-top: 58px;
+}
+/*扫码登陆*/
+#load_bgimg .load_msg span.load_code,.load_phone{
+	margin-left: 26px;
+}
+#load_bgimg .load_msg p.last{
+	display:block;
+	float: left;
+	font-size: 14px;
+	margin-top: 32px;
+	margin-left:64px ;
+}
+/*用户名登陆*/
+#load_bgimg .load_msg>div>div{
+	width: 290px;
+	height: 38px;
+	border: 1px solid #f6f6f6;
+	margin-left: 30px;
+	margin-bottom: 18px;
+	position: relative;
+}
+#load_bgimg .load_msg>div>div input{
+	height: 20px;
+	width: 214px;
+	font-size: 18px;
+	color: #e5e5e5;
+	position: absolute;
+	left: 46px;
+	top: 10px;
+	border-style:none ;
+	outline: none;
+}
+#load_bgimg .load_msg>div>div .quxiao{
+	position: absolute;
+	right: 8px;
+	top: 10px;
+}
+#load_bgimg .load_msg>div>div.username{
+	background-image: url(../imgs/user_icon.jpg);
+	background-repeat: no-repeat;
+}
+
+#load_bgimg .load_msg>div>div.password{
+	background-image: url(../imgs/load_pwd.jpg);
+	background-repeat: no-repeat;
+}
+#load_bgimg .load_msg>div p.rember_pwd{
+	display: block;
+	width: 288px;
+	height: 38px;
+	margin-left: 34px;
+	font-size: 14px;
+	color: #4c4c4c;
+}
+#load_bgimg .load_msg>div p.rember_pwd>input,span{
+	float: left;
+}
+#load_bgimg .load_msg>div p.rember_pwd>span.forget_pwd{
+	margin-left: 160px;
+}
+#load_bgimg .load_msg>div p.rember_pwd>span.forget_pwd a{
+	color: #4c4c4c;
+}
+#load_bgimg .load_msg>div>input{
+	height: 40px;
+	width: 288px;
+	background-color: #FF6600;
+	border-style: none;
+	font-size: 24PX;
+	color: #ffffff;
+	outline: none;
+	margin-bottom: 18px;
+}
+#load_bgimg .load_msg>div>p.load_quick{
+	display: block;
+	height: 46px;
+	line-height: 30px;
+	border-top: 1px solid #f6f6f6;
+	background-color: #fcfcfc;
+	text-align: center;
+	font-size: 20px;
+}
+#load_bgimg .load_msg>div>p a.quick{
+	color: #ff6600;
+}
+
+
+/*JS交互效果*/
+#load_bgimg .load_msg p.first>span.show_wordcolor{
+	color: #FF6600;
+}
+#load_bgimg .load_msg>div.show{
+	display: block;
+}
+/*右边扫码登陆结束*/
+/*尾部网页商务信息开始*/
+#footer{
+	width: 100%;
+	height: 700px;
+	text-align: center;
+}
+#footer p>a{
+	height: 40px;
+	line-height: 50px;
+	font-size: 14px;
+	color: #333333;
+}
+
+
+/*尾部网页商务信息结束*/

@@ -1,0 +1,40 @@
+/*最顶部的黑色背景*/
+#login{
+	width: 100%;
+	background-color: #101010;
+}
+/*通用的居中效果*/
+.innertext{
+	width: 1200px;
+	margin: 0 auto;
+}
+/*排头文字颜色均为居中效果,统一设置*/
+#login p{
+	color: #bfbfbf;
+	height: 28px;
+	line-height: 28px;
+}
+/*左边的网址展示*/
+#login p .left{
+	font-size: 18px;
+	float: left;
+	margin-left: 206px;
+}
+/*右边的登录注册*/
+#login p .right{
+	width: 220px;
+	float: right;
+	right: 0;
+	padding-right: 10px;
+	text-align: right;
+	font-size: 14px;
+}
+#login .innertext em{
+	color: #ff6a07;
+}
+.log_btn{
+	color: #bfbfbf;
+}
+.reg_btn{
+	color: #ff6a07;
+}
